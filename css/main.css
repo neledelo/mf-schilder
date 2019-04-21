@@ -1887,11 +1887,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   .main-menu {
     height: 100px;
-    line-height: 100px; } }
+    line-height: 100px;
+  position:fixed; } }
 @media (max-width: 768px) {
   .main-menu {
     height: 80px;
-    line-height: 80px; } }
+    line-height: 80px;
+  position: fixed; } }
 
 #header {
   z-index: 997;
