@@ -1887,17 +1887,15 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   .main-menu {
     height: 100px;
-    line-height: 100px;
-  position:fixed; } }
+    line-height: 100px; } }
 @media (max-width: 768px) {
   .main-menu {
     height: 80px;
-    line-height: 80px;
-  position: fixed; } }
+    line-height: 80px; } }
 
 #header {
   z-index: 997;
-  background: #ffffff; }
+  background: #fff; }
   #header hr {
     margin: 0;
     background: rgba(204, 204, 204, 0.54); }
@@ -1906,7 +1904,7 @@ h1, h2, h3, h4, h5, h6 {
         display: none; } }
 
 #header.header-scrolled {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   right: 0;
@@ -2046,6 +2044,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
+  position: fixed;
   right: 15px;
   z-index: 999;
   top: 28px;
